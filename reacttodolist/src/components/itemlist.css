@@ -1,0 +1,7 @@
+.items * {
+    background-color: rgb(46, 45, 45);
+}
+
+.items:hover * {
+    background-color: rgb(28, 28, 28);
+}

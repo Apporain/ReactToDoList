@@ -1,0 +1,16 @@
+.add-button-container {
+    background-color: rgb(46, 45, 45);
+    width: 100%;
+}
+
+.add-button-container:hover {
+    background-color: rgb(28, 28, 28);
+}
+
+.icon {
+    height : 36px;
+    width : 32px; 
+    padding : 2px;
+    padding-bottom : 2px;
+    fill: white;
+}

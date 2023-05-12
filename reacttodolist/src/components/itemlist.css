@@ -5,3 +5,26 @@
 .items:hover * {
     background-color: rgb(28, 28, 28);
 }
+
+.list-items-container {
+    width: 30%;
+}
+
+.item {
+    background-color: rgb(46, 45, 45);
+    width: 100%;
+    text-decoration-color: white;
+    color: white;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.item-theme:hover * {
+    background-color: rgb(28, 28, 28);
+}
+
+.item-theme {
+    background-color: rgb(46, 45, 45);
+}
+

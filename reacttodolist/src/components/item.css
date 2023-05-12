@@ -6,11 +6,19 @@
     height: 20px;
     width: 20px;
     fill: white;
+    opacity: 0.6;
+
+}
+
+.item-icons:hover {
+    opacity: 1;
 }
 
 .item-container {
     background-color: rgb(46, 45, 45);
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .item-theme-container:hover {
@@ -30,4 +38,5 @@
     text-decoration-color: white;
     color: white;
     border: none;
+    outline: none;
 }

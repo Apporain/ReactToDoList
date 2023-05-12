@@ -1,16 +1,8 @@
-.items * {
-    background-color: rgb(46, 45, 45);
-}
-
-.items:hover * {
-    background-color: rgb(28, 28, 28);
-}
-
 .list-items-container {
     width: 30%;
 }
 
-.item {
+.item *{
     background-color: rgb(46, 45, 45);
     width: 100%;
     text-decoration-color: white;
@@ -18,13 +10,52 @@
     border: none;
     padding: 5px;
     padding-left: 10px;
+    outline: none;
+}
+.item {
+    background-color: rgb(46, 45, 45);
+    width: 100%;
+    height:auto;
+    text-decoration-color: white;
+    color: white;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
 }
 
-.item-theme:hover * {
-    background-color: rgb(28, 28, 28);
-}
-
-.item-theme {
+.item-container * {
     background-color: rgb(46, 45, 45);
 }
 
+.item-theme-container:hover {
+    background-color: rgb(28, 28, 28);
+}
+
+.item-theme-container:hover * {
+    background-color: rgb(28, 28, 28);
+}
+
+.item-theme-container {
+    background-color: rgb(46, 45, 45);
+}
+
+.input-text-box {
+    text-decoration-color: white;
+    color: white;
+    border: none;
+    outline: none;
+}
+.transition-fade {
+    -webkit-transition: background-color 0.5s ease-in;
+    -moz-transition: background-color 0.5s ease-in;
+    -o-transition: background-color 0.5s ease-in;
+    transition: background-color 0.5s ease-in;
+}
+
+.transition-fade * {
+    -webkit-transition: background-color 0.5s ease-in;
+    -moz-transition: background-color 0.5s ease-in;
+    -o-transition: background-color 0.5s ease-in;
+    transition: background-color 0.5s ease-in;
+}

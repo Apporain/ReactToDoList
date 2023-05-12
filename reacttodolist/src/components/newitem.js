@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import './newitem.js'
+import './newitem.css'
 
 
 import {ReactComponent as IconCheck} from '../Icons/check-circle.svg'
@@ -22,7 +22,7 @@ function NewItem(props) {
         props.updatedecline();
     }
     return( 
-        <div class=" border border-dark item-container item-theme-container rounded-bottom d-flex justify-content-between">
+        <div class=" border border-dark item-container item-theme-container rounded-bottom d-flex justify-content-between transition-fade">
             <input class="d-inline-block input-text-box" type="text" onChange={UpdateTextValue} placeholder={props.value} value={ItemTitle}></input>
             <div class="d-flex flex-row-reverse d-inline-block">
                 <div class="align-icons" onClick={UpdateParentDecline}><IconCross class="item-icons"/></div>

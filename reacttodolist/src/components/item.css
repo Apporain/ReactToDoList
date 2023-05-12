@@ -19,6 +19,7 @@
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 
 .item-theme-container:hover {
@@ -33,10 +34,14 @@
     background-color: rgb(46, 45, 45);
 }
 
-.input-text-box {
-    background-color: rgb(46, 45, 45);
-    text-decoration-color: white;
-    color: white;
-    border: none;
-    outline: none;
+.item-completion * {
+    background-color: rgb(2, 209, 2);
 }
+
+.item-completion {
+    background-color: rgb(2, 209, 2);
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

@@ -5,7 +5,7 @@ import ItemList from './components/itemlist.js'
 function App() {
   return (
     <div>
-      <header className="App-header">
+      <header className="App-header App-header-width">
         <ItemList/>
       </header>
     </div>
